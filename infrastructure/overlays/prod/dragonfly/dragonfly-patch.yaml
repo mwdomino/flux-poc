@@ -4,9 +4,6 @@ metadata:
   name: dragonfly-sample
   namespace: default
 spec:
-  env:
-    - name: DFLY_REQUIREPASS
-      value: "prod-cluster-password"
   resources:
     requests:
       memory: "512Mi"
