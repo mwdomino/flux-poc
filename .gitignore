@@ -1,0 +1,10 @@
+# Temporary files
+*.tmp
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Kubernetes secrets (if any)
+*secret*.yaml
